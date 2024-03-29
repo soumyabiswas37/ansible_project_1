@@ -9,4 +9,4 @@
         auth_token: "{{ auth_token }}"
         from_number: "{{ from_number }}"
         to_numbers: "{{ to_numbers }}"
-        msg: "Test From Jenkins Automated job is successful"
+        msg: "Congratulation!! Test From Jenkins Automated job is successful"
