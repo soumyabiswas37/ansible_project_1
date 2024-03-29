@@ -11,5 +11,5 @@
         password: "{{ password }}"
         to: "{{ to }}"
         subject: "Ansible test email"
-        body: "Congratulation!! This is a test email from Ansible automated with Jenkins!!"
+        body: "Congratulation! This is a test email from Ansible automated with Jenkins!!"
       delegate_to: localhost
