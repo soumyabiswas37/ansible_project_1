@@ -1,7 +1,7 @@
 ---
 - hosts: localhost
   vars_files:
-    - email_vars.yml
+    - /home/ec2-user/email_vars.yml
   tasks:
     - name: "Send email to recipients"
       community.general.mail:

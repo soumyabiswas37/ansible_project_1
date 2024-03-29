@@ -1,7 +1,7 @@
 ---
 - hosts: localhost
   vars_files:
-    - sms_vars.yml
+    - /home/ec2-user/sms_vars.yml
   tasks:
     - name: "Send SMS with Twilio"
       community.general.twilio:
